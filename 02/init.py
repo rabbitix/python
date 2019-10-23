@@ -1,3 +1,5 @@
+# tell about github
+
 x = "alex"
 y = 21
 print(x)
@@ -54,4 +56,3 @@ y = "John"
 print(x + y)
 
 # show cpture about data type
-
