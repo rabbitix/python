@@ -18,18 +18,45 @@
 <= 	Less than or equal to 	x <= y 	
 '''
 
+x = 2
+print(x == 2)  # prints out True
+print(x == 3)  # prints out False
+print(x < 3)  # prints out True
+
 
 '''
 and  	Returns True if both statements are true 	x < 5 and  x < 10 	
 or 	Returns True if one of the statements is true 	x < 5 or x < 4 	
 not 	Reverse the result, returns False if the result is true 	not(x < 5 and x < 10) 	
 '''
+print(not False)  # Prints out True
+print((not False) == (False))  # Prints out False
+
+name = "John"
+age = 23
+if name == "John" and age == 23:
+    print("Your name is John, and you are also 23 years old.")
+
+if name == "John" or name == "Rick":
+    print("Your name is either John or Rick.")
 
 
 '''
 is  	Returns true if both variables are the same object 	x is y 	
 is not 	Returns true if both variables are not the same object 	x is not y 	
 '''
+
+statement = False
+another_statement = True
+if statement is True:
+    # do something
+    pass
+elif another_statement is True:  # else if
+    # do something else
+    pass
+else:
+    # do another thing
+    pass
 
 
 '''
@@ -38,7 +65,11 @@ not in 	Returns True if a sequence with the specified value is not present in th
 
 '''
 
-# if - if elif else  and or
+name = "John"
+if name in ["John", "Rick"]:
+    print("Your name is either John or Rick.")
+
+# if - if elif else
 
 
 primes = [2, 3, 5, 7]
@@ -62,12 +93,17 @@ for x in range(10):
 
 # Prints out 0,1,2,3,4 and then it prints "count value reached 5"
 
+
+# else block runs when loop over successfully
 count = 0
 while(count < 5):
     print(count)
     count += 1
 else:
     print("count value reached %d" % (count))
+
+
+# in this example else block will not run because for loop had been breaked!!
 
 # Prints out 1,2,3,4
 for i in range(1, 10):
