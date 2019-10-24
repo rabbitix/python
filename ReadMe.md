@@ -1,2 +1,5 @@
->go to Introductory branch for Introductory
+>برای دسترسی به مطالب دوره ی مقدماتی به شاخه ی مقدماتی مراجعه کنید
+
+
+
 
