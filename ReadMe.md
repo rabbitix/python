@@ -2,4 +2,4 @@
 
 
 
-
+[مطالب دوره ی مقدماتی](https://github.com/rabbitix/python/tree/Introductory)
