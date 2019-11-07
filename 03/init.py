@@ -68,6 +68,11 @@ not in 	Returns True if a sequence with the specified value is not present in th
 name = "John"
 if name in ["John", "Rick"]:
     print("Your name is either John or Rick.")
+else:
+    pass
+
+elif True:
+    pass
 
 # if - if elif else
 
@@ -83,7 +88,9 @@ while True:
     count += 1
     if count >= 5:
         break
-
+# range(start,stop,step)
+range(1,30,3)
+range(10,0,-1)
 # Prints out only odd numbers - 1,3,5,7,9
 for x in range(10):
     # Check if x is even
