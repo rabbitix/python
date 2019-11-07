@@ -1,3 +1,7 @@
+
+
+
+
 # Python Collections (Arrays)
 
 # There are four collection data types in the Python programming language:
@@ -20,6 +24,8 @@ thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 print(thislist[2:5])
 
 
+# a_list[start:stop:step]
+
 thislist = ["apple", "banana", "cherry"]
 thislist[1] = "blackcurrant"
 print(thislist)
@@ -36,7 +42,7 @@ if "apple" in thislist:
 
 thislist = ["apple", "banana", "cherry"]
 print(len(thislist))
-
+ 
 
 thislist = ["apple", "banana", "cherry"]
 thislist.append("orange")
@@ -52,3 +58,55 @@ print(list3)
 
 
 # make a list with `list(iter)`
+
+
+# ======= strings =========
+text = """Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua."""
+print(text)
+
+
+a = "Hello, World!"
+print(a[1])
+
+
+# Slicing
+b = "Hello, World!"
+print(b[2:5])
+
+
+# length
+a = "Hello, World!"
+print(len(a))
+
+
+a = "Hello, World!"
+print(a.split(","))
+
+
+# https://www.w3schools.com/python/python_ref_string.asp
+
+
+txt = "The rain in Spain stays mainly in the plain"
+x = "ain" in txt
+print(x)
+
+a = "Hello"
+b = "World"
+c = a + b
+print(c)
+
+
+a = "Hello"
+b = "World"
+c = a + " " + b
+print(c)
+
+
+# f string 
+
+name = 'ali'
+
+print(f'my name is {name}')
